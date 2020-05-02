@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <ImageView
+            android:id="@+id/choose_item_photo"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/faiz"/>
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/choose_item_photo"
+            android:layout_toRightOf="@id/choose_item_photo"
+            android:textSize="14sp"
+            tools:text="@string/heroes_name" />
+
+        <TextView
+            android:id="@+id/tv_item_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/choose_item_photo"
+            android:layout_toRightOf="@id/choose_item_photo"
+            android:textSize="14sp"
+            tools:text="NIM" />
+
+        <TextView
+            android:id="@+id/tv_item_progdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_nim"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/choose_item_photo"
+            android:layout_toRightOf="@id/choose_item_photo"
+            android:textSize="14sp"
+            tools:text="progdi" />
+
+        <TextView
+            android:id="@+id/tv_item_angkatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_progdi"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/choose_item_photo"
+            android:layout_toRightOf="@id/choose_item_photo"
+            android:textSize="14sp"
+            tools:text="angkatan" />
+
+        <TextView
+            android:id="@+id/tv_item_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_angkatan"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@id/choose_item_photo"
+            android:layout_toRightOf="@id/choose_item_photo"
+            android:textSize="14sp"
+            tools:text="angkatan" />
+
+        <TextView
+            android:id="@+id/tv_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choose_item_photo"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="16dp"
+            tools:text="@string/detail" />
+    </RelativeLayout>
+</ScrollView>

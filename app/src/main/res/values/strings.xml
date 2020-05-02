@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="detail">Detail</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="user">user</string>
+    <string name="todo">TODO</string>
+    <string name="saya">Umar Faiz Ubaidillah</string>
+    <string name="emailsaya">ufaiz50@gmail.com</string>
+    <string name="pindah_activity_dengan_data">pindah activity dengan data</string>
+    <string name="contact">Contact</string>
+</resources>
